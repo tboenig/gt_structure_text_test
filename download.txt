@@ -1,1 +1,1 @@
-https://github.com/tboenig/gt_structure_text_test/releases/download/v1.0.4/aepinus_bekentnis_1548.ocrd.zip
+https://github.com/tboenig/gt_structure_text_test/releases/download/v1.0.5/aepinus_bekentnis_1548.ocrd.zip
