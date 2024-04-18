@@ -242,7 +242,7 @@
                         </thead>
                         <tr>
                            <td>
-                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.6/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0007.xml">aepinus_bekentnis_1548_0007.xml</a>
+                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.7/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0007.xml">aepinus_bekentnis_1548_0007.xml</a>
                            </td>
                            <td>30</td>
                            <td>1</td>
@@ -263,7 +263,7 @@
                         </tr>
                         <tr>
                            <td>
-                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.6/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0020.xml">aepinus_bekentnis_1548_0020.xml</a>
+                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.7/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0020.xml">aepinus_bekentnis_1548_0020.xml</a>
                            </td>
                            <td>21</td>
                            <td>1</td>
@@ -284,7 +284,7 @@
                         </tr>
                         <tr>
                            <td>
-                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.6/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0006.xml">aepinus_bekentnis_1548_0006.xml</a>
+                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.7/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0006.xml">aepinus_bekentnis_1548_0006.xml</a>
                            </td>
                            <td>18</td>
                            <td>1</td>
@@ -305,7 +305,7 @@
                         </tr>
                         <tr>
                            <td>
-                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.6/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0021.xml">aepinus_bekentnis_1548_0021.xml</a>
+                              <a href="https://github.com/tboenig/gt_structure_text_test/blob/v1.0.7/data/aepinus_bekentnis_1548/GT-PAGE/aepinus_bekentnis_1548_0021.xml">aepinus_bekentnis_1548_0021.xml</a>
                            </td>
                            <td>32</td>
                            <td>1</td>
