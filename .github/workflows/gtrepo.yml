@@ -118,6 +118,7 @@ jobs:
           - name: install megarules.xml
             run: | 
               git clone --branch gh-pages --single-branch https://github.com/OCR-D/gt-MufiLevelRules.git
+              ls
 
 
             
