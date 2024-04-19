@@ -34,7 +34,7 @@ jobs:
 
           - name: Get current branch name
             run: |
-              export GITHUB_MAINBRANCH=$(git symbolic-ref HEAD)
+              export GITHUB_MAINBRANCH=$(git symbolic-ref --short HEAD)
               echo "Current branch: $GITHUB_MAINBRANCH"
             
   
