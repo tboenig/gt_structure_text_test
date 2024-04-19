@@ -30,7 +30,13 @@ jobs:
 
           - name: Using tag name from input param
             if: github.event.inputs.tag-name != ''
-            run: echo "TAG_NAME=${{ github.event.inputs.tag-name}}" >> $GITHUB_ENV  
+            run: echo "TAG_NAME=${{ github.event.inputs.tag-name}}" >> $GITHUB_ENV
+
+          - name: Get current branch name
+            run: |
+              export GITHUB_MAINBRANCH=$(git symbolic-ref HEAD)
+              echo "Current branch: $GITHUB_MAINBRANCH"
+            
   
           - name: download and install Saxon
             run: |
@@ -238,7 +244,7 @@ jobs:
               git config --local user.name "github-actions[bot]"
               git add README.md
               git commit -m "[Automatic] Update readme files" || echo "Nothing to update"
-              git push origin HEAD
+              git push origin HEAD:$GITHUB_MAINBRANCH
 
           - name: commit METADATA_htr_united.yml
             run: |
@@ -246,7 +252,7 @@ jobs:
                 git config --local user.name "github-actions[bot]"
                 git add ${{ github.event.repository.name }}_METADATA_htr_united.yml
                 git commit -m "[Automatic] Update METADATA_htr_united.yml files" || echo "Nothing to update"
-                git push origin HEAD
+                git push origin HEAD:$GITHUB_MAINBRANCH
 
           - name: commit CITATION.cff
             run: |
@@ -254,7 +260,7 @@ jobs:
               git config --local user.name "github-actions[bot]"
               git add CITATION.cff
               git commit -m "[Automatic] Update CITATION.cff files" || echo "Nothing to update"
-              git push origin HEAD
+              git push origin HEAD:$GITHUB_MAINBRANCH
 
           - name: deploy GT Overview to GitHub Pages branch 🚀
             uses: JamesIves/github-pages-deploy-action@v4
