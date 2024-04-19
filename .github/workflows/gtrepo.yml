@@ -244,7 +244,7 @@ jobs:
               git config --local user.name "github-actions[bot]"
               git add README.md
               git commit -m "[Automatic] Update readme files" || echo "Nothing to update"
-              git push origin HEAD:$GITHUB_MAINBRANCH
+              git push origin HEAD:main
 
           - name: commit METADATA_htr_united.yml
             run: |
@@ -252,7 +252,7 @@ jobs:
                 git config --local user.name "github-actions[bot]"
                 git add ${{ github.event.repository.name }}_METADATA_htr_united.yml
                 git commit -m "[Automatic] Update METADATA_htr_united.yml files" || echo "Nothing to update"
-                git push origin HEAD:$GITHUB_MAINBRANCH
+                git push origin HEAD:main
 
           - name: commit CITATION.cff
             run: |
@@ -260,7 +260,7 @@ jobs:
               git config --local user.name "github-actions[bot]"
               git add CITATION.cff
               git commit -m "[Automatic] Update CITATION.cff files" || echo "Nothing to update"
-              git push origin HEAD:$GITHUB_MAINBRANCH
+              git push origin HEAD:main
 
           - name: deploy GT Overview to GitHub Pages branch 🚀
             uses: JamesIves/github-pages-deploy-action@v4
