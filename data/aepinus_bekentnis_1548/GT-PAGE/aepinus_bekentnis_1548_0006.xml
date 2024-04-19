@@ -21,7 +21,7 @@
 	<Word id="w_w1aab1b5b2b1b1ab1" language="German" custom="readingOrder {index:0;} textStyle {offset:0; length:9;fontFamily:Times\u0020New\u0020Roman; fontSize:10.0;}">
 	<Coords points="837,597 995,597 995,637 837,637"/>
 	<TextEquiv>
-	<Unicode>Zacharias</Unicode></TextEquiv>
+	<Unicode>Zaacharias</Unicode></TextEquiv>
 	<TextStyle fontFamily="blackletter" fontSize="10.00000"/></Word>
 	<Word id="w_w1aab1b5b2b1b1b1b1" language="German" custom="readingOrder {index:1;} textStyle {offset:0; length:2;fontFamily:Times\u0020New\u0020Roman; italic:true; fontSize:10.0;}">
 	<Coords points="1012,605 1041,605 1041,631 1012,631"/>
